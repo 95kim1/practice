@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="clock.js" defer></script>
+    <script src="greeting.js" defer></script>
+    <script src="todo.js" defer></script>
+    <script src="background.js" defer></script>
+    <script src="weather.js" defer></script>
+  </head>
+  <body>
+    <div class="back"></div>
+
+    <header class="header">
+      <spanc class="js-weather"></spanc>
+    </header>
+
+    <section>
+      <div class="main">
+        <!--clock block-->
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+        
+        <!--name block-->
+        <div class="name-block">
+          <form class="js-form form">
+            <input type="text" placeholder=" What is your name?"/>
+          </form>
+          <h3 class="js-greeting greetings"></h3>
+        </div>
+        
+        <!--todo block-->
+        <div class="todo-block">
+          <form class="js-toDoForm">
+            <input type="text" placeholder=" Write a to do"/>
+            <button class="resetBtn">OK</button>
+          </form>
+        </div>
+      </div>
+      <div class="main2">
+        <ul class="js-toDoList">
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+    </footer>
+  </body>
+</html>
